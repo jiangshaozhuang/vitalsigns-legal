@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>节律感知 支持 / Support</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0;
+    padding: 32px 20px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.75;
+    color: #2d2a28;
+    background: #fffaf7;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { font-size: 15px; }
+  .meta { color: #8a7f79; font-size: 13px; margin-bottom: 28px; }
+  hr { border: none; border-top: 1px solid #ecdfd9; margin: 44px 0; }
+  ul, ol { padding-left: 22px; }
+  a { color: #d9483b; }
+  .qa { margin: 0 0 18px; }
+  .qa strong { display: block; margin-bottom: 2px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>节律感知 支持</h1>
+  <p class="meta">最近更新：2026 年 11 月 12 日</p>
+
+  <h2>关于本应用</h2>
+  <p>节律感知是 urt-01 毫米波节律感知设备的 iOS 配套应用，用于连接设备、查看实时心率与呼吸数值，并管理设备版本与固件。</p>
+
+  <h2>快速上手</h2>
+  <ol>
+    <li>打开 urt-01 设备电源，并让它靠近手机</li>
+    <li>在 App 底部进入「设备」页，点击「搜索附近设备」</li>
+    <li>在列表中选择名称包含 <strong>urt-01</strong> 的设备完成连接</li>
+    <li>返回「首页」即可查看实时心率、呼吸数值与趋势图</li>
+  </ol>
+  <p>没有设备时，可在「设备」页点击「没有设备？查看演示模式」预览界面；演示模式中的数值均为模拟数据。</p>
+
+  <h2>常见问题</h2>
+
+  <div class="qa">
+    <strong>搜索不到设备</strong>
+    <p>请确认设备已开机、距离手机较近，并已在系统设置中允许本应用使用蓝牙。若仍找不到，可关闭再打开手机蓝牙后重试。</p>
+  </div>
+
+  <div class="qa">
+    <strong>连接成功但没有心率 / 呼吸数据</strong>
+    <p>请确认设备处于正常工作状态，并尝试断开后重新连接。若刚完成固件升级，设备会自动重启，请等待重启完成后重新搜索连接。</p>
+  </div>
+
+  <div class="qa">
+    <strong>设备版本查询失败</strong>
+    <p>请确认连接稳定后重试。若设备刚升级完固件，可能仍处于重启过程，请稍等片刻后重新连接并查询。</p>
+  </div>
+
+  <div class="qa">
+    <strong>固件升级需要注意什么</strong>
+    <p>升级过程中请保持 App 在前台、不要断开连接，并确保手机与设备电量充足。固件下载完成后会再次弹窗确认，取消不会向设备写入任何数据。升级完成后设备会自动重启，App 会回到未连接状态，重新搜索连接即可。</p>
+  </div>
+
+  <div class="qa">
+    <strong>我的数据会被上传吗</strong>
+    <p>不会。心率与呼吸数据仅在手机内存中实时显示，不持久化、不上传服务器。详见<a href="privacy.html">隐私政策</a>。</p>
+  </div>
+
+  <h2>医疗声明</h2>
+  <p>本产品为消费级健康产品，测量结果仅供参考，不构成医疗建议，不用于疾病诊断或治疗。如有健康问题，请咨询专业医疗人员。</p>
+
+  <h2>联系我们</h2>
+  <p>如遇到其他问题，请联系：<a href="mailto:jiangshaozhuang@163.com">jiangshaozhuang@163.com</a></p>
+
+  <hr>
+
+  <h1>Support (English)</h1>
+  <p class="meta">Last updated: November 12, 2026</p>
+
+  <h2>About</h2>
+  <p>节律感知 is the iOS companion app for the urt-01 millimeter-wave rhythm sensing device. It connects to the device, shows live heart rate and breathing rate, and manages firmware version and updates.</p>
+
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Power on the urt-01 device and keep it close to your phone.</li>
+    <li>Open the "设备" tab, tap "搜索附近设备".</li>
+    <li>Select the device whose name contains <strong>urt-01</strong>.</li>
+    <li>Return to the home tab to see live readings and charts.</li>
+  </ol>
+  <p>Without a device, tap "没有设备？查看演示模式" on the devices tab to preview the interface with simulated data.</p>
+
+  <h2>FAQ</h2>
+  <div class="qa">
+    <strong>No device found</strong>
+    <p>Make sure the device is powered on, nearby, and Bluetooth permission is granted. Try toggling Bluetooth off and on, then scan again.</p>
+  </div>
+  <div class="qa">
+    <strong>Connected but no readings</strong>
+    <p>Confirm the device is running normally and reconnect. After a firmware update the device restarts automatically; wait for it to come back, then reconnect.</p>
+  </div>
+  <div class="qa">
+    <strong>Firmware update</strong>
+    <p>Keep the app in the foreground and stay connected during the update. You will be asked to confirm again after the download; cancelling writes nothing to the device. When the update completes, the device restarts and the app returns to the disconnected state.</p>
+  </div>
+  <div class="qa">
+    <strong>Is my data uploaded?</strong>
+    <p>No. Readings are displayed in memory only and are never stored or uploaded. See the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <h2>Medical Disclaimer</h2>
+  <p>This product is a consumer wellness product. Measurements are for reference only and are not medical advice; they must not be used to diagnose or treat any condition.</p>
+
+  <h2>Contact</h2>
+  <p>For further assistance, contact <a href="mailto:jiangshaozhuang@163.com">jiangshaozhuang@163.com</a>.</p>
+</main>
+</body>
+</html>
